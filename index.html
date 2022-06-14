@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+  <div class="main">
+    <div class="card">
+
+      <div class="top">
+     
+        <div class="left">
+          <p> My balance</p>
+          <h1>$921.48</h1>
+        </div>
+
+        <div class="right">
+
+          <img src="images/logo.svg" alt="">
+        </div>
+
+      </div>
+
+      <div class="bottom">
+
+
+        <h1> Spending - Last 7 days</h1>
+
+        <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
+        <div class="chart-box">
+          <!-- <div class="box" id="mon"><span>mon</span></div>
+          <div class="box" id="tue"><span>tue</span></div>
+          <div class="box" id="wed"><span>wed</span></div>
+          <div class="box" id="thur"><span>thur</span></div>
+          <div class="box" id="fri"><span>fri</span></div>
+          <div class="box" id="sat"><span>sat</span></div>
+          <div class="box" id="sun"><span>sun</span></div> -->
+        </div>
+
+        <hr>
+      
+        <div class="bottom-section">
+
+          <div class="left">
+            <p> Total this month</p>
+            <h2>$478.33</h2>
+          </div>
+
+          <div class="right">
+            <p class="percent">+2.4%</p>
+            <p class="last-month">from last month</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/charlsoluwapelumi">Sns Charmie</a>.
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
